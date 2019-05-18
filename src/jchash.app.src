@@ -1,14 +1,12 @@
 {application, jchash, [
   {description, "Jump Consistent Hash NIF library for Erlang/Elixir."},
-  {vsn, "0.1.0"},
+  {vsn, "0.1.1"},
   {registered, []},
-  {mod, {jchash, []}},
   {applications, [kernel, stdlib]},
   {env,[]},
   {modules, []},
-  {maintainers, ["Carlos Andres Bolanos"]},
   {licenses, ["MIT"]},
-  {build_tools, ["rebar3", "make"]},
+  {build_tools, ["rebar3"]},
   {links, [
     {"GitHub", "https://github.com/cabol/jchash"}
   ]}

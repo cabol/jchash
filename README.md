@@ -2,12 +2,11 @@
 
 Jump Consistent Hash NIF library for Erlang/Elixir.
 
-This NIF implements the Jump Consistent Hash algorithm, created by John Lamping and Eric Veach
-developed at **Google, Inc**. This is the original paper:
+This NIF implements the Jump Consistent Hash algorithm, created by John Lamping
+and Eric Veach developed at **Google, Inc**. This is the original paper:
 ["A Fast, Minimal Memory, Consistent Hash Algorithm"](http://arxiv.org/ftp/arxiv/papers/1406/1406.2294.pdf).
 
-
-## Usage
+## Installation
 
 ### Erlang
 
@@ -15,7 +14,7 @@ In your `rebar.config`:
 
 ```erlang
 {deps, [
-  {jchash, "0.1.0"}
+  {jchash, "0.1.1"}
 ]}.
 ```
 
@@ -29,14 +28,13 @@ Usage example:
 22
 ```
 
-
 ### Elixir
 
 In your `mix.exs`:
 
 ```elixir
 def deps do
-  [{:jchash, "~> 0.1.0"}]
+  [{:jchash, "~> 0.1.1"}]
 end
 ```
 
@@ -50,11 +48,9 @@ Usage example:
 22
 ```
 
-
-## Running Tests
+## Testing
 
     $ rebar3 eunit
-
 
 ## Copyright and License
 
