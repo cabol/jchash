@@ -1,5 +1,7 @@
 # jchash
 
+![CI](https://github.com/cabol/jchash/workflows/CI/badge.svg)
+
 Jump Consistent Hash NIF library for Erlang/Elixir.
 
 This NIF implements the Jump Consistent Hash algorithm, created by John Lamping
@@ -14,7 +16,7 @@ In your `rebar.config`:
 
 ```erlang
 {deps, [
-  {jchash, "0.1.1"}
+  {jchash, "0.1.2"}
 ]}.
 ```
 
