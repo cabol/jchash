@@ -36,17 +36,17 @@ In your `mix.exs`:
 
 ```elixir
 def deps do
-  [{:jchash, "~> 0.1.1"}]
+  [{:jchash, "~> 0.1"}]
 end
 ```
 
 Usage example:
 
 ```
-> :jchash.compute(1, 2).
+> :jchash.compute(1, 2)
 0
 
-> System.system_time |> :erlang.phash2 |> :jchash.compute(100)
+> System.system_time() |> :erlang.phash2() |> :jchash.compute(100)
 22
 ```
 
