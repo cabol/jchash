@@ -16,7 +16,7 @@ In your `rebar.config`:
 
 ```erlang
 {deps, [
-  {jchash, "0.1.2"}
+  {jchash, "0.1.3"}
 ]}.
 ```
 
