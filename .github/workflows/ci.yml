@@ -12,7 +12,7 @@ jobs:
     name: jchash test ${{ matrix.otp }}
     strategy:
       matrix:
-        otp: [24.2, 23.2]
+        otp: [26.0, 25.3, 24.2, 23.2]
     steps:
       - uses: actions/checkout@v2
       - uses: gleam-lang/setup-erlang@v1.1.3
